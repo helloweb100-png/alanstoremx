@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Alan Store MX | Streaming en México: Netflix, Disney+, Max y más</title>
+  <meta name="description" content="Streaming en México desde $5: perfiles y cuentas completas de Netflix, Disney+, Max, Prime Video y más. Pide por WhatsApp todos los días, de 7:00 a 22:00.">
+  <meta name="theme-color" content="#07030f">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / redes -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="Alan Store MX">
+  <meta property="og:title" content="Alan Store MX | Reina tu pantalla con todo tu streaming">
+  <meta property="og:description" content="Perfiles y cuentas completas de Netflix, Disney+, Max, Prime Video, Crunchyroll, Spotify y más, desde $5. Arma tu pedido y envíalo por WhatsApp.">
+  <meta property="og:image" content="assets/logo-alan-store-mx.jpg">
+  <meta property="og:image:alt" content="Logo de Alan Store MX: una pantera negra con corona rodeada de plataformas de streaming">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/logo-alan-store-mx.jpg">
+
+  <!-- Tipografías: Unbounded (títulos) + Plus Jakarta Sans (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Unbounded:wght@500;700;800&display=swap">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- anime.js 3.2.2 (cdnjs). Es un extra: la página funciona completa aunque no cargue. -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+  <script defer src="script.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "OnlineStore"],
+    "name": "Alan Store MX",
+    "description": "Ventas de streaming en México: perfiles y cuentas completas de Netflix, Disney+, Prime Video, HBO Max, Paramount+, Crunchyroll, ViX, Fox One, Viki, Kocowa, Apple TV, Universal+ y Spotify, además de Duolingo, CapCut, Canva, libros y películas.",
+    "telephone": "+525649498382",
+    "areaServed": { "@type": "Country", "name": "México" },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "07:00",
+      "closes": "22:00"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué diferencia hay entre un perfil y una cuenta completa?",
+        "acceptedAnswer": { "@type": "Answer", "text": "El perfil es tu espacio dentro de una cuenta y es la opción más económica. La cuenta completa es la cuenta entera para ti. Todos los precios de ambas opciones están en el catálogo." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cómo hago mi pedido?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Elige lo que quieras en el catálogo, toca Agregar y envía tu pedido por WhatsApp. El mensaje llega escrito, con el detalle y el total." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿En qué horario atienden?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Atendemos todos los días, de lunes a domingo, de 7:00 a.m. a 10:00 p.m." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Tienen algo además de series y películas?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sí: Spotify, Canva, CapCut, Duolingo, libros (1 por $10 o 4 por $30) y películas ($10 cada una)." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto dura cada plan?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Canva (de 1 a 5 meses y 12 meses) y ViX (1 o 2 meses) indican su duración en el catálogo. Para los demás, confirma la vigencia con nosotros por WhatsApp antes de pedir." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Puedo pedir algo que no veo en el catálogo?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Escríbenos por WhatsApp y pregúntanos: con gusto te decimos si lo tenemos." }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <!-- Iconos reutilizables -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-minus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M5 12h14"/></symbol>
+      <symbol id="i-bag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 8h12l-1 12H7L6 8zM9 8V7a3 3 0 016 0v1"/></symbol>
+      <symbol id="i-crown" viewBox="0 0 24 24"><path fill="currentColor" d="M3 8l4.5 4L12 4.5 16.5 12 21 8l-2 11H5L3 8z"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5v14l11-7z"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-send" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 3L10 14M21 3l-7 18-4-7-7-4 18-7z"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- CARGADOR: se cierra solo (JS) y tiene respaldo en CSS por si el JS falla -->
+  <div class="loader" id="cargador" role="status" aria-live="polite" aria-label="Cargando Alan Store MX">
+    <div class="loader__curtain loader__curtain--l"></div>
+    <div class="loader__curtain loader__curtain--r"></div>
+    <div class="loader__core">
+      <div class="loader__orb">
+        <span class="loader__ring loader__ring--a"></span>
+        <span class="loader__ring loader__ring--b"></span>
+        <span class="loader__cat"></span>
+      </div>
+      <p class="loader__brand">Alan <b>Store</b> MX</p>
+      <div class="loader__bar"><i></i></div>
+      <p class="loader__meta"><span>Preparando tu pantalla</span> <strong><span id="cargaPct">0</span>%</strong></p>
+    </div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"></div>
+
+  <!-- ENCABEZADO -->
+  <header class="hdr" id="encabezado">
+    <div class="hdr__in">
+      <a class="brand" href="#inicio" aria-label="Alan Store MX, ir al inicio">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">Alan <b>Store</b> MX</span>
+      </a>
+
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="#universos">Universos</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#compara">Perfil vs. completa</a>
+        <a href="#como-pedir">Cómo pedir</a>
+        <a href="#preguntas">Preguntas</a>
+        <a href="#contacto">Contacto</a>
+        <a class="btn btn--primary btn--sm nav__cta" data-wa data-wa-msg="¡Hola Alan Store MX! 👑 Quiero mi streaming, ¿me ayudan a elegir?" href="#contacto">Quiero mi streaming <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg></a>
+      </nav>
+
+      <a class="btn btn--primary btn--sm hdr__cta" data-wa data-wa-msg="¡Hola Alan Store MX! 👑 Quiero pedir streaming por WhatsApp." href="#contacto">Pedir por WhatsApp <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg></a>
+
+      <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="progress" aria-hidden="true"><i></i></div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <canvas class="field hero__field" aria-hidden="true"></canvas>
+      <div class="hero__aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="hero__floor" aria-hidden="true"></div>
+
+      <div class="wrap hero__in">
+        <!-- Escenario 3D: logo + órbita de plataformas -->
+        <div class="stage rise" style="--i:0">
+          <div class="stage__rotor">
+            <div class="stage__halo" aria-hidden="true"></div>
+            <div class="stage__ring stage__ring--dash" aria-hidden="true"></div>
+            <div class="stage__ring stage__ring--comet" aria-hidden="true"></div>
+            <img class="stage__logo" src="assets/logo-alan-store-mx.jpg" width="1254" height="1254" fetchpriority="high" alt="Logo de Alan Store MX: una pantera negra con corona rodeada de plataformas de streaming">
+
+            <div class="orbit" aria-hidden="true">
+              <div class="orbit__slot" style="--a:0deg"><span class="chip" style="--c:#e50914">Netflix</span></div>
+              <div class="orbit__slot" style="--a:45deg"><span class="chip" style="--c:#2f6bff">Disney+</span></div>
+              <div class="orbit__slot" style="--a:90deg"><span class="chip" style="--c:#19b4ff">Prime Video</span></div>
+              <div class="orbit__slot" style="--a:135deg"><span class="chip" style="--c:#9b4dff">HBO Max</span></div>
+              <div class="orbit__slot" style="--a:180deg"><span class="chip" style="--c:#1ed760">Spotify</span></div>
+              <div class="orbit__slot" style="--a:225deg"><span class="chip" style="--c:#19c3d6">Canva</span></div>
+              <div class="orbit__slot" style="--a:270deg"><span class="chip" style="--c:#ff8a1f">Crunchyroll</span></div>
+              <div class="orbit__slot" style="--a:315deg"><span class="chip" style="--c:#cfd3dc">Apple TV</span></div>
+            </div>
+
+            <span class="spark spark--1" aria-hidden="true"></span>
+            <span class="spark spark--2" aria-hidden="true"></span>
+            <span class="spark spark--3" aria-hidden="true"></span>
+            <span class="spark spark--4" aria-hidden="true"></span>
+
+            <div class="float float--a" aria-hidden="true"><small>Perfiles desde</small><b>$5</b></div>
+            <div class="float float--b" aria-hidden="true"><span class="live-dot"></span><b>Todos los días</b><small>7:00 a 22:00</small></div>
+          </div>
+        </div>
+
+        <div class="hero__copy">
+          <p class="eyebrow rise" style="--i:1"><span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span> Ventas de streaming · 7:00 a 22:00</p>
+
+          <h1 class="hero__title rise" id="hero-titulo" style="--i:2">
+            <span class="line">Reina tu pantalla</span>
+            <span class="line line--rot">
+              <span class="con" aria-hidden="true">con</span>
+              <span class="rot" aria-hidden="true">
+                <span class="rot__track">
+                  <span>Netflix</span><span>Disney+</span><span>Max</span><span>Prime Video</span><span>Crunchyroll</span><span>Spotify</span><span>Canva</span><span>Apple TV</span><span>Netflix</span>
+                </span>
+              </span>
+            </span>
+            <span class="sr">con Netflix, Disney+, Max, Prime Video, Crunchyroll, Spotify, Canva y Apple TV</span>
+          </h1>
+
+          <p class="hero__lead rise" style="--i:3">Perfiles y cuentas completas de Netflix, Disney+, Max, Prime Video, Crunchyroll y más, <strong>desde $5</strong>. Elige, arma tu pedido en un minuto y envíalo por WhatsApp.</p>
+
+          <div class="hero__cta rise" style="--i:4">
+            <a class="btn btn--primary btn--lg btn--magnetic" data-wa data-wa-msg="¡Hola Alan Store MX! 👑 Estoy listo, quiero mi streaming. ¿Me ayudan a elegir?" href="#contacto"><span>Estoy listo, quiero mi streaming</span> <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg></a>
+            <a class="btn btn--ghost btn--lg" href="#catalogo"><span>Ver catálogo y precios</span> <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+
+          <ul class="hero__stats rise" style="--i:5">
+            <li><strong><span data-count="5" data-prefix="$">$5</span></strong><span>precio más bajo</span></li>
+            <li><strong><span data-count="7">7</span>/7</strong><span>días de atención</span></li>
+            <li><strong><span data-count="18" data-suffix="+">18+</span></strong><span>servicios y plataformas</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Cinta de precios (siempre en movimiento) -->
+      <div class="ticker" aria-label="Precios de perfiles">
+        <span class="ticker__label">Perfiles desde</span>
+        <div class="ticker__view">
+          <div class="ticker__track">
+            <div class="ticker__group">
+              <span><b>Netflix</b> $48</span><span><b>Disney+</b> $13</span><span><b>Prime Video</b> $9</span><span><b>HBO Max</b> $12</span><span><b>Paramount+</b> $9</span><span><b>Crunchyroll</b> $10</span><span><b>ViX</b> $5</span><span><b>Fox One</b> $12</span><span><b>Viki</b> $15</span><span><b>Kocowa</b> $5</span><span><b>Duolingo</b> $6</span><span><b>Apple TV</b> $12</span>
+            </div>
+            <div class="ticker__group" aria-hidden="true">
+              <span><b>Netflix</b> $48</span><span><b>Disney+</b> $13</span><span><b>Prime Video</b> $9</span><span><b>HBO Max</b> $12</span><span><b>Paramount+</b> $9</span><span><b>Crunchyroll</b> $10</span><span><b>ViX</b> $5</span><span><b>Fox One</b> $12</span><span><b>Viki</b> $15</span><span><b>Kocowa</b> $5</span><span><b>Duolingo</b> $6</span><span><b>Apple TV</b> $12</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CINTA DE MARCAS ============ -->
+    <section class="strip" aria-label="Servicios disponibles">
+      <div class="strip__row strip__row--a" aria-hidden="true">
+        <div class="strip__track">
+          <span>Netflix</span><i></i><span>Disney+</span><i></i><span>Prime Video</span><i></i><span>HBO Max</span><i></i><span>Paramount+</span><i></i><span>Crunchyroll</span><i></i><span>ViX</span><i></i><span>Fox One</span><i></i>
+          <span>Netflix</span><i></i><span>Disney+</span><i></i><span>Prime Video</span><i></i><span>HBO Max</span><i></i><span>Paramount+</span><i></i><span>Crunchyroll</span><i></i><span>ViX</span><i></i><span>Fox One</span><i></i>
+        </div>
+      </div>
+      <div class="strip__row strip__row--b" aria-hidden="true">
+        <div class="strip__track">
+          <span>Spotify</span><i></i><span>Canva</span><i></i><span>CapCut</span><i></i><span>Duolingo</span><i></i><span>Apple TV</span><i></i><span>Universal+</span><i></i><span>Viki</span><i></i><span>Kocowa</span><i></i>
+          <span>Spotify</span><i></i><span>Canva</span><i></i><span>CapCut</span><i></i><span>Duolingo</span><i></i><span>Apple TV</span><i></i><span>Universal+</span><i></i><span>Viki</span><i></i><span>Kocowa</span><i></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MANIFIESTO: el logo se abre en grande al hacer scroll ============ -->
+    <section class="manifesto" id="manifiesto" aria-labelledby="manifiesto-titulo">
+      <div class="manifesto__pin">
+        <div class="manifesto__frame">
+          <div class="manifesto__glow" aria-hidden="true"></div>
+          <img class="manifesto__logo" src="assets/logo-alan-store-mx.jpg" width="1254" height="1254" loading="lazy" alt="">
+          <div class="manifesto__text">
+            <p class="eyebrow">El reino del streaming</p>
+            <h2 id="manifiesto-titulo">Tu tiempo libre <span class="grad">merece corona.</span></h2>
+            <p>Series, películas, anime, música y herramientas para crear, todo en un solo lugar y a precios que sí caben en tu bolsillo. Tú eliges el plan; nosotros te atendemos por WhatsApp.</p>
+            <a class="btn btn--primary" href="#catalogo"><span>Quiero ver qué me llevo</span> <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ POR QUÉ ALAN STORE (bento) ============ -->
+    <section class="sec why" id="por-que" aria-labelledby="why-titulo">
+      <div class="wrap">
+        <header class="sec-head" data-reveal>
+          <p class="eyebrow">Por qué Alan Store MX</p>
+          <h2 id="why-titulo" data-split>Todo el streaming, sin enredos.</h2>
+          <p class="lead">Eliges, pides por WhatsApp y listo. Sin vueltas, sin complicaciones y con los precios a la vista.</p>
+        </header>
+
+        <div class="bento" data-stagger>
+          <article class="card card--price spot" data-reveal>
+            <div class="card__body">
+              <p class="card__kicker">Precios claros</p>
+              <p class="bigprice"><span>desde</span><strong data-count="5" data-prefix="$">$5</strong></p>
+              <p>Cada plan trae su precio a la vista. Lo que ves en el catálogo es lo que pides, sin planes escondidos.</p>
+              <a class="link" href="#catalogo">Ver todos los precios <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </div>
+            <div class="tags" aria-hidden="true">
+              <span style="--x:6%;--t:0s">$5</span><span style="--x:24%;--t:1.1s">$6</span><span style="--x:42%;--t:2.2s">$9</span><span style="--x:58%;--t:.6s">$10</span><span style="--x:74%;--t:1.7s">$12</span><span style="--x:88%;--t:2.8s">$13</span>
+            </div>
+          </article>
+
+          <article class="card card--hours spot" data-reveal>
+            <p class="card__kicker">Siempre disponibles</p>
+            <h3>Todos los días, de 7:00 a 22:00</h3>
+            <div class="dial" aria-hidden="true">
+              <svg viewBox="0 0 120 120">
+                <circle class="dial__bg" cx="60" cy="60" r="50"/>
+                <circle class="dial__arc" cx="60" cy="60" r="50" transform="rotate(15 60 60)"/>
+                <g class="dial__ticks"><path d="M60 6v6M114 60h-6M60 114v-6M6 60h6"/></g>
+                <g class="dial__hand"><line x1="60" y1="60" x2="60" y2="18"/><circle cx="60" cy="16" r="4.5"/></g>
+                <text x="60" y="66" text-anchor="middle">24h</text>
+              </svg>
+            </div>
+            <p class="status" data-status><span class="live-dot"></span><span data-status-text>Lunes a domingo, sin descansos de fin de semana.</span></p>
+          </article>
+
+          <article class="card card--switch spot" data-reveal>
+            <p class="card__kicker">Tú decides</p>
+            <h3>Perfil o cuenta completa</h3>
+            <div class="swt" aria-hidden="true">
+              <div class="swt__pill"><span class="swt__knob"></span><span class="swt__l">Perfil</span><span class="swt__r">Completa</span></div>
+              <div class="swt__price"><span class="swt__p1">Netflix <b>$48</b></span><span class="swt__p2">Netflix <b>$225</b></span></div>
+            </div>
+            <p>Perfil para empezar por menos; cuenta completa para tenerla toda.</p>
+            <a class="link" href="#compara">Comparar precios <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </article>
+
+          <article class="card card--chat spot" data-reveal>
+            <p class="card__kicker">Pedido en un mensaje</p>
+            <h3>Arma tu pedido y envíalo por WhatsApp</h3>
+            <div class="chat" aria-hidden="true">
+              <div class="bubble bubble--out" style="--t:.2s">¡Hola Alan Store MX! 👑 Quiero hacer este pedido:<br>• 1× Netflix (Perfil) — $48<br>• 1× Canva (1 mes) — $7<br><b>Total: $55</b></div>
+              <div class="typing" style="--t:1.8s"><i></i><i></i><i></i></div>
+            </div>
+            <p>Tu pedido llega escrito y con total. Cero formularios eternos.</p>
+          </article>
+
+          <article class="card card--more spot" data-reveal>
+            <p class="card__kicker">Mucho más que series</p>
+            <h3>Música, diseño, idiomas, libros y películas</h3>
+            <div class="cloud" aria-hidden="true">
+              <span style="--c:#1ed760">Spotify</span><span style="--c:#19c3d6">Canva</span><span style="--c:#e8e8f0">CapCut</span><span style="--c:#58cc02">Duolingo</span><span style="--c:#ffc21a">Libros</span><span style="--c:#e04bff">Películas</span>
+            </div>
+            <p>Súmalos al mismo pedido y paga todo en un solo mensaje.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ UNIVERSOS (scroll horizontal fijado) ============ -->
+    <section class="worlds" id="universos" aria-labelledby="worlds-titulo">
+      <div class="worlds__pin">
+        <header class="worlds__head wrap">
+          <p class="eyebrow">Universos para tu pantalla</p>
+          <h2 id="worlds-titulo">Cinco universos. <span class="grad">Una sola tienda.</span></h2>
+        </header>
+
+        <div class="worlds__view">
+          <ul class="worlds__track">
+            <li class="world world--cine">
+              <div class="world__art" aria-hidden="true">
+                <div class="film"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="playbtn"><svg><use href="#i-play"/></svg></div>
+              </div>
+              <div class="world__body">
+                <span class="world__n">01</span>
+                <h3>Series y películas</h3>
+                <p>Estrenos, sagas y clásicos para tu próxima maratón.</p>
+                <ul class="world__chips"><li>Netflix</li><li>Disney+</li><li>Prime Video</li><li>HBO Max</li><li>Paramount+</li><li>Fox One</li><li>Universal+</li><li>Apple TV</li><li>ViX</li></ul>
+                <a class="btn btn--ghost btn--sm" href="#catalogo" data-goto="perfiles"><span>Quiero ver los precios</span> <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </li>
+            <li class="world world--anime">
+              <div class="world__art" aria-hidden="true">
+                <div class="rays"></div>
+                <div class="orb"></div>
+              </div>
+              <div class="world__body">
+                <span class="world__n">02</span>
+                <h3>Anime y doramas</h3>
+                <p>Capítulo tras capítulo, sin cortar la emoción.</p>
+                <ul class="world__chips"><li>Crunchyroll</li><li>Viki</li><li>Kocowa</li></ul>
+                <a class="btn btn--ghost btn--sm" href="#catalogo" data-goto="perfiles"><span>Quiero mi maratón</span> <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </li>
+            <li class="world world--musica">
+              <div class="world__art" aria-hidden="true">
+                <div class="eqbars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+              <div class="world__body">
+                <span class="world__n">03</span>
+                <h3>Música</h3>
+                <p>Tu banda sonora para todo el día.</p>
+                <ul class="world__chips"><li>Spotify</li></ul>
+                <a class="btn btn--ghost btn--sm" href="#catalogo" data-goto="completas"><span>Ponle música a mi día</span> <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </li>
+            <li class="world world--crea">
+              <div class="world__art" aria-hidden="true">
+                <div class="shape shape--a"></div><div class="shape shape--b"></div><div class="shape shape--c"></div><div class="shape shape--d"></div>
+              </div>
+              <div class="world__body">
+                <span class="world__n">04</span>
+                <h3>Crea y aprende</h3>
+                <p>Diseña con Canva, edita con CapCut y practica idiomas con Duolingo.</p>
+                <ul class="world__chips"><li>Canva</li><li>CapCut</li><li>Duolingo</li></ul>
+                <a class="btn btn--ghost btn--sm" href="#catalogo" data-goto="canva"><span>Quiero crear más</span> <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </li>
+            <li class="world world--libros">
+              <div class="world__art" aria-hidden="true">
+                <div class="book"><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+              <div class="world__body">
+                <span class="world__n">05</span>
+                <h3>Libros y películas sueltas</h3>
+                <p>Libros desde $10 (o 4 por $30) y películas a $10 cada una.</p>
+                <ul class="world__chips"><li>Libros</li><li>Películas</li></ul>
+                <a class="btn btn--ghost btn--sm" href="#catalogo" data-goto="extras"><span>Quiero leer y ver más</span> <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="worlds__bar" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- ============ CATÁLOGO (tema claro) ============ -->
+    <section class="sec light catalog" id="catalogo" aria-labelledby="cat-titulo">
+      <div class="wrap">
+        <header class="sec-head sec-head--center" data-reveal>
+          <p class="eyebrow">Catálogo y precios</p>
+          <h2 id="cat-titulo" data-split>Elige, suma y pide. Así de simple.</h2>
+          <p class="lead">Toca “Agregar” en lo que quieras, revisa tu total y envía tu pedido por WhatsApp. Precios en pesos mexicanos; confirma disponibilidad y duración al pedir.</p>
+        </header>
+
+        <div class="tabs" role="tablist" aria-label="Tipo de plan" data-reveal>
+          <button class="tab is-active" role="tab" id="tab-perfiles" aria-controls="panel-perfiles" aria-selected="true" type="button" data-tab="perfiles">Perfiles <small>14</small></button>
+          <button class="tab" role="tab" id="tab-completas" aria-controls="panel-completas" aria-selected="false" tabindex="-1" type="button" data-tab="completas">Cuentas completas <small>13</small></button>
+          <button class="tab" role="tab" id="tab-canva" aria-controls="panel-canva" aria-selected="false" tabindex="-1" type="button" data-tab="canva">Canva <small>6</small></button>
+          <button class="tab" role="tab" id="tab-extras" aria-controls="panel-extras" aria-selected="false" tabindex="-1" type="button" data-tab="extras">Libros y películas <small>3</small></button>
+          <span class="tabs__ink" aria-hidden="true"></span>
+        </div>
+
+        <!-- PERFILES -->
+        <div class="panel" role="tabpanel" id="panel-perfiles" aria-labelledby="tab-perfiles" data-panel="perfiles">
+          <h3 class="panel__title">Perfiles de streaming</h3>
+          <p class="panel__note">Perfil: tu propio espacio dentro de una cuenta. Es la forma más económica de empezar tu maratón.</p>
+          <ul class="items">
+            <li class="item" data-id="p-netflix" data-name="Netflix" data-kind="Perfil" data-price="48" style="--brand:#e50914"><h4 class="item__name">Netflix</h4><p class="item__kind">Perfil</p><p class="item__price"><sup>$</sup>48</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Netflix, perfil, por $48 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-disney" data-name="Disney+" data-kind="Perfil" data-price="13" style="--brand:#2f6bff"><h4 class="item__name">Disney+</h4><p class="item__kind">Perfil</p><p class="item__price"><sup>$</sup>13</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Disney+, perfil, por $13 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-prime" data-name="Prime Video" data-kind="Perfil" data-price="9" style="--brand:#19b4ff"><h4 class="item__name">Prime Video</h4><p class="item__kind">Perfil</p><p class="item__price"><sup>$</sup>9</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Prime Video, perfil, por $9 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-hbo" data-name="HBO Max" data-kind="Perfil" data-price="12" style="--brand:#9b4dff"><h4 class="item__name">HBO Max</h4><p class="item__kind">Perfil</p><p class="item__price"><sup>$</sup>12</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar HBO Max, perfil, por $12 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-paramount" data-name="Paramount+" data-kind="Perfil" data-price="9" style="--brand:#2d7dff"><h4 class="item__name">Paramount+</h4><p class="item__kind">Perfil</p><p class="item__price"><sup>$</sup>9</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Paramount+, perfil, por $9 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-crunchy" data-name="Crunchyroll" data-kind="Perfil" data-price="10" style="--brand:#ff8a1f"><h4 class="item__name">Crunchyroll</h4><p class="item__kind">Perfil</p><p class="item__price"><sup>$</sup>10</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Crunchyroll, perfil, por $10 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-vix1" data-name="ViX" data-kind="Perfil · 1 mes" data-price="5" style="--brand:#ff5b3a"><h4 class="item__name">ViX</h4><p class="item__kind">Perfil · 1 mes</p><p class="item__price"><sup>$</sup>5</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar ViX, perfil de 1 mes, por $5 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-vix2" data-name="ViX" data-kind="Perfil · 2 meses" data-price="10" style="--brand:#ff5b3a"><h4 class="item__name">ViX</h4><p class="item__kind">Perfil · 2 meses</p><p class="item__price"><sup>$</sup>10</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar ViX, perfil de 2 meses, por $10 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-fox" data-name="Fox One" data-kind="Perfil" data-price="12" style="--brand:#ffb81a"><h4 class="item__name">Fox One</h4><p class="item__kind">Perfil</p><p class="item__price"><sup>$</sup>12</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Fox One, perfil, por $12 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-viki" data-name="Viki" data-kind="Perfil" data-price="15" style="--brand:#17d3c0"><h4 class="item__name">Viki</h4><p class="item__kind">Perfil</p><p class="item__price"><sup>$</sup>15</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Viki, perfil, por $15 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-kocowa" data-name="Kocowa" data-kind="Perfil" data-price="5" style="--brand:#ff4d8d"><h4 class="item__name">Kocowa</h4><p class="item__kind">Perfil</p><p class="item__price"><sup>$</sup>5</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Kocowa, perfil, por $5 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-duolingo" data-name="Duolingo" data-kind="Perfil" data-price="6" style="--brand:#58cc02"><h4 class="item__name">Duolingo</h4><p class="item__kind">Perfil</p><p class="item__price"><sup>$</sup>6</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Duolingo, perfil, por $6 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-apple" data-name="Apple TV" data-kind="Perfil" data-price="12" style="--brand:#7c7f8a"><h4 class="item__name">Apple TV</h4><p class="item__kind">Perfil</p><p class="item__price"><sup>$</sup>12</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Apple TV, perfil, por $12 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="p-capcut" data-name="CapCut" data-kind="Compartido" data-price="35" style="--brand:#25252d"><h4 class="item__name">CapCut</h4><p class="item__kind">Compartido</p><p class="item__price"><sup>$</sup>35</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar CapCut, compartido, por $35 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+          </ul>
+        </div>
+
+        <!-- CUENTAS COMPLETAS -->
+        <div class="panel" role="tabpanel" id="panel-completas" aria-labelledby="tab-completas" data-panel="completas">
+          <h3 class="panel__title">Cuentas completas</h3>
+          <p class="panel__note">Cuenta completa: la cuenta entera para ti, para ver a tu ritmo y a tu manera.</p>
+          <ul class="items">
+            <li class="item" data-id="c-netflix" data-name="Netflix" data-kind="Cuenta completa" data-price="225" style="--brand:#e50914"><h4 class="item__name">Netflix</h4><p class="item__kind">Cuenta completa</p><p class="item__price"><sup>$</sup>225</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Netflix, cuenta completa, por $225 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-hbo" data-name="HBO Max" data-kind="Cuenta completa" data-price="40" style="--brand:#9b4dff"><h4 class="item__name">HBO Max</h4><p class="item__kind">Cuenta completa</p><p class="item__price"><sup>$</sup>40</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar HBO Max, cuenta completa, por $40 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-crunchy" data-name="Crunchyroll" data-kind="Cuenta completa" data-price="35" style="--brand:#ff8a1f"><h4 class="item__name">Crunchyroll</h4><p class="item__kind">Cuenta completa</p><p class="item__price"><sup>$</sup>35</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Crunchyroll, cuenta completa, por $35 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-prime" data-name="Prime Video" data-kind="Cuenta completa" data-price="30" style="--brand:#19b4ff"><h4 class="item__name">Prime Video</h4><p class="item__kind">Cuenta completa</p><p class="item__price"><sup>$</sup>30</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Prime Video, cuenta completa, por $30 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-vix1" data-name="ViX" data-kind="Cuenta completa · 1 mes" data-price="10" style="--brand:#ff5b3a"><h4 class="item__name">ViX</h4><p class="item__kind">Completa · 1 mes</p><p class="item__price"><sup>$</sup>10</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar ViX, cuenta completa de 1 mes, por $10 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-vix2" data-name="ViX" data-kind="Cuenta completa · 2 meses" data-price="15" style="--brand:#ff5b3a"><h4 class="item__name">ViX</h4><p class="item__kind">Completa · 2 meses</p><p class="item__price"><sup>$</sup>15</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar ViX, cuenta completa de 2 meses, por $15 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-fox" data-name="Fox One" data-kind="Cuenta completa" data-price="40" style="--brand:#ffb81a"><h4 class="item__name">Fox One</h4><p class="item__kind">Cuenta completa</p><p class="item__price"><sup>$</sup>40</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Fox One, cuenta completa, por $40 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-kocowa" data-name="Kocowa" data-kind="Cuenta completa" data-price="15" style="--brand:#ff4d8d"><h4 class="item__name">Kocowa</h4><p class="item__kind">Cuenta completa</p><p class="item__price"><sup>$</sup>15</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Kocowa, cuenta completa, por $15 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-paramount" data-name="Paramount+" data-kind="Cuenta completa" data-price="38" style="--brand:#2d7dff"><h4 class="item__name">Paramount+</h4><p class="item__kind">Cuenta completa</p><p class="item__price"><sup>$</sup>38</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Paramount+, cuenta completa, por $38 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-universal" data-name="Universal+" data-kind="Cuenta completa" data-price="40" style="--brand:#4d8bff"><h4 class="item__name">Universal+</h4><p class="item__kind">Cuenta completa</p><p class="item__price"><sup>$</sup>40</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Universal+, cuenta completa, por $40 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-duolingo" data-name="Duolingo" data-kind="Cuenta completa" data-price="25" style="--brand:#58cc02"><h4 class="item__name">Duolingo</h4><p class="item__kind">Cuenta completa</p><p class="item__price"><sup>$</sup>25</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Duolingo, cuenta completa, por $25 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-apple" data-name="Apple TV" data-kind="Cuenta completa" data-price="35" style="--brand:#7c7f8a"><h4 class="item__name">Apple TV</h4><p class="item__kind">Cuenta completa</p><p class="item__price"><sup>$</sup>35</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Apple TV, cuenta completa, por $35 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="c-spotify" data-name="Spotify" data-kind="Cuenta completa · 1 mes" data-price="38" style="--brand:#1ed760"><h4 class="item__name">Spotify</h4><p class="item__kind">Completa · 1 mes</p><p class="item__price"><sup>$</sup>38</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Spotify, cuenta completa de 1 mes, por $38 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+          </ul>
+        </div>
+
+        <!-- CANVA -->
+        <div class="panel" role="tabpanel" id="panel-canva" aria-labelledby="tab-canva" data-panel="canva">
+          <h3 class="panel__title">Canva por meses</h3>
+          <p class="panel__note">Elige cuántos meses de Canva necesitas. El plan de 12 meses es el que mejor sale por mes: $40 en total.</p>
+          <ul class="items">
+            <li class="item" data-id="canva-1" data-name="Canva" data-kind="1 mes" data-price="7" style="--brand:#19c3d6"><h4 class="item__name">Canva</h4><p class="item__kind">1 mes</p><p class="item__price"><sup>$</sup>7</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Canva de 1 mes por $7 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="canva-2" data-name="Canva" data-kind="2 meses" data-price="10" style="--brand:#19c3d6"><h4 class="item__name">Canva</h4><p class="item__kind">2 meses</p><p class="item__price"><sup>$</sup>10</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Canva de 2 meses por $10 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="canva-3" data-name="Canva" data-kind="3 meses" data-price="13" style="--brand:#19c3d6"><h4 class="item__name">Canva</h4><p class="item__kind">3 meses</p><p class="item__price"><sup>$</sup>13</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Canva de 3 meses por $13 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="canva-4" data-name="Canva" data-kind="4 meses" data-price="16" style="--brand:#19c3d6"><h4 class="item__name">Canva</h4><p class="item__kind">4 meses</p><p class="item__price"><sup>$</sup>16</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Canva de 4 meses por $16 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="canva-5" data-name="Canva" data-kind="5 meses" data-price="20" style="--brand:#19c3d6"><h4 class="item__name">Canva</h4><p class="item__kind">5 meses</p><p class="item__price"><sup>$</sup>20</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Canva de 5 meses por $20 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item item--best" data-id="canva-12" data-name="Canva" data-kind="12 meses" data-price="40" style="--brand:#19c3d6"><h4 class="item__name">Canva</h4><p class="item__kind">12 meses</p><p class="item__price"><sup>$</sup>40</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar Canva de 12 meses por $40 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+          </ul>
+        </div>
+
+        <!-- LIBROS Y PELÍCULAS -->
+        <div class="panel" role="tabpanel" id="panel-extras" aria-labelledby="tab-extras" data-panel="extras">
+          <h3 class="panel__title">Libros y películas</h3>
+          <p class="panel__note">Libros: 1 por $10 o 4 por $30. Películas: $10 cada una.</p>
+          <ul class="items">
+            <li class="item" data-id="x-libro-1" data-name="Libro" data-kind="1 libro" data-price="10" style="--brand:#ffc21a"><h4 class="item__name">Libro</h4><p class="item__kind">1 libro</p><p class="item__price"><sup>$</sup>10</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar 1 libro por $10 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item item--best" data-id="x-libro-4" data-name="Libros" data-kind="Paquete de 4" data-price="30" style="--brand:#ffc21a"><h4 class="item__name">Libros</h4><p class="item__kind">Paquete de 4</p><p class="item__price"><sup>$</sup>30</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar paquete de 4 libros por $30 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+            <li class="item" data-id="x-pelicula" data-name="Película" data-kind="Por unidad" data-price="10" style="--brand:#e04bff"><h4 class="item__name">Película</h4><p class="item__kind">Por unidad</p><p class="item__price"><sup>$</sup>10</p><div class="item__act"><button class="btn btn--add" type="button" data-add aria-label="Agregar una película por $10 a mi pedido"><svg class="ico" aria-hidden="true"><use href="#i-plus"/></svg><span>Agregar</span></button></div></li>
+          </ul>
+        </div>
+
+        <p class="catalog__foot" data-reveal>¿No ves lo que buscas? <a class="link" data-wa data-wa-msg="¡Hola Alan Store MX! 👑 Quisiera saber si tienen un servicio que no veo en el catálogo." href="#contacto">Pregúntanos por WhatsApp <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg></a></p>
+      </div>
+    </section>
+
+    <!-- ============ COMPARADOR PERFIL VS COMPLETA (tema claro) ============ -->
+    <section class="sec light compare" id="compara" aria-labelledby="cmp-titulo">
+      <div class="wrap">
+        <header class="sec-head" data-reveal>
+          <p class="eyebrow">Perfil vs. cuenta completa</p>
+          <h2 id="cmp-titulo" data-split>Mira la diferencia antes de elegir.</h2>
+          <p class="lead">Cada barra compara el precio del perfil contra el de la cuenta completa del mismo servicio.</p>
+        </header>
+
+        <div class="cmp" data-bars>
+          <p class="cmp__legend"><span class="k k--p">Perfil</span><span class="k k--c">Cuenta completa</span></p>
+          <ul class="cmp__list">
+            <li class="row" style="--i:0"><span class="row__name">Netflix</span><div class="row__bars"><div class="bar bar--p"><i style="--w:21%"></i><b>$48</b></div><div class="bar bar--c"><i style="--w:100%"></i><b>$225</b></div></div></li>
+            <li class="row" style="--i:1"><span class="row__name">Prime Video</span><div class="row__bars"><div class="bar bar--p"><i style="--w:30%"></i><b>$9</b></div><div class="bar bar--c"><i style="--w:100%"></i><b>$30</b></div></div></li>
+            <li class="row" style="--i:2"><span class="row__name">HBO Max</span><div class="row__bars"><div class="bar bar--p"><i style="--w:30%"></i><b>$12</b></div><div class="bar bar--c"><i style="--w:100%"></i><b>$40</b></div></div></li>
+            <li class="row" style="--i:3"><span class="row__name">Paramount+</span><div class="row__bars"><div class="bar bar--p"><i style="--w:24%"></i><b>$9</b></div><div class="bar bar--c"><i style="--w:100%"></i><b>$38</b></div></div></li>
+            <li class="row" style="--i:4"><span class="row__name">Crunchyroll</span><div class="row__bars"><div class="bar bar--p"><i style="--w:29%"></i><b>$10</b></div><div class="bar bar--c"><i style="--w:100%"></i><b>$35</b></div></div></li>
+            <li class="row" style="--i:5"><span class="row__name">Fox One</span><div class="row__bars"><div class="bar bar--p"><i style="--w:30%"></i><b>$12</b></div><div class="bar bar--c"><i style="--w:100%"></i><b>$40</b></div></div></li>
+            <li class="row" style="--i:6"><span class="row__name">Apple TV</span><div class="row__bars"><div class="bar bar--p"><i style="--w:34%"></i><b>$12</b></div><div class="bar bar--c"><i style="--w:100%"></i><b>$35</b></div></div></li>
+            <li class="row" style="--i:7"><span class="row__name">Duolingo</span><div class="row__bars"><div class="bar bar--p"><i style="--w:24%"></i><b>$6</b></div><div class="bar bar--c"><i style="--w:100%"></i><b>$25</b></div></div></li>
+            <li class="row" style="--i:8"><span class="row__name">Kocowa</span><div class="row__bars"><div class="bar bar--p"><i style="--w:33%"></i><b>$5</b></div><div class="bar bar--c"><i style="--w:100%"></i><b>$15</b></div></div></li>
+            <li class="row" style="--i:9"><span class="row__name">ViX · 1 mes</span><div class="row__bars"><div class="bar bar--p"><i style="--w:50%"></i><b>$5</b></div><div class="bar bar--c"><i style="--w:100%"></i><b>$10</b></div></div></li>
+            <li class="row" style="--i:10"><span class="row__name">ViX · 2 meses</span><div class="row__bars"><div class="bar bar--p"><i style="--w:67%"></i><b>$10</b></div><div class="bar bar--c"><i style="--w:100%"></i><b>$15</b></div></div></li>
+          </ul>
+        </div>
+
+        <div class="cmp__cta" data-reveal>
+          <a class="btn btn--primary" href="#catalogo" data-goto="perfiles"><span>Ya sé cuál quiero</span> <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO PEDIR ============ -->
+    <section class="sec steps" id="como-pedir" aria-labelledby="steps-titulo">
+      <div class="wrap">
+        <header class="sec-head sec-head--center" data-reveal>
+          <p class="eyebrow">Cómo pedir</p>
+          <h2 id="steps-titulo" data-split>De elegir a disfrutar en tres pasos.</h2>
+        </header>
+
+        <ol class="steps__list">
+          <li class="step" data-reveal>
+            <span class="step__n">1</span>
+            <div class="step__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-bag"/></svg></div>
+            <h3>Elige lo que quieres ver</h3>
+            <p>Recorre el catálogo, escoge perfil o cuenta completa y toca “Agregar”.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__n">2</span>
+            <div class="step__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-wa"/></svg></div>
+            <h3>Envíanos tu pedido</h3>
+            <p>Un toque y se abre WhatsApp con tu pedido ya escrito. Solo envíalo.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__n">3</span>
+            <div class="step__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-play"/></svg></div>
+            <h3>Confirma y disfruta</h3>
+            <p>Te atendemos todos los días de 7:00 a 22:00 para confirmar disponibilidad, forma de pago y tu acceso.</p>
+          </li>
+          <li class="steps__line" aria-hidden="true"><i></i></li>
+        </ol>
+
+        <div class="steps__cta" data-reveal>
+          <a class="btn btn--primary btn--lg btn--magnetic" href="#catalogo"><span>Empezar mi pedido ahora</span> <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PREGUNTAS FRECUENTES (tema claro) ============ -->
+    <section class="sec light faq" id="preguntas" aria-labelledby="faq-titulo">
+      <div class="wrap faq__in">
+        <header class="sec-head" data-reveal>
+          <p class="eyebrow">Preguntas frecuentes</p>
+          <h2 id="faq-titulo" data-split>Lo que casi todos preguntan.</h2>
+          <p class="lead">Si tu duda no está aquí, escríbenos: con gusto te ayudamos.</p>
+          <a class="btn btn--primary btn--sm" data-wa data-wa-msg="¡Hola Alan Store MX! 👑 Tengo una duda antes de pedir." href="#contacto"><span>Resolver mi duda por WhatsApp</span> <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg></a>
+        </header>
+
+        <div class="faq__list" data-stagger>
+          <details class="qa" data-reveal>
+            <summary>¿Qué diferencia hay entre un perfil y una cuenta completa?</summary>
+            <div class="qa__a"><p>El perfil es tu espacio dentro de una cuenta y es la opción más económica. La cuenta completa es la cuenta entera para ti. Los precios de ambas están en el catálogo y en el comparador.</p></div>
+          </details>
+          <details class="qa" data-reveal>
+            <summary>¿Cómo hago mi pedido?</summary>
+            <div class="qa__a"><p>Elige en el catálogo, toca “Agregar” y luego “Enviar mi pedido por WhatsApp”. El mensaje llega escrito, con el detalle y el total.</p></div>
+          </details>
+          <details class="qa" data-reveal>
+            <summary>¿En qué horario atienden?</summary>
+            <div class="qa__a"><p>Atendemos todos los días, de lunes a domingo, de 7:00 a.m. a 10:00 p.m.</p></div>
+          </details>
+          <details class="qa" data-reveal>
+            <summary>¿Cuánto dura cada plan?</summary>
+            <div class="qa__a"><p>Canva (de 1 a 5 meses y 12 meses) y ViX (1 o 2 meses) indican su duración en el catálogo. Para los demás, confirma la vigencia con nosotros por WhatsApp antes de pedir.</p></div>
+          </details>
+          <details class="qa" data-reveal>
+            <summary>¿Tienen algo además de series y películas?</summary>
+            <div class="qa__a"><p>Sí: Spotify, Canva, CapCut, Duolingo, libros (1 por $10 o 4 por $30) y películas ($10 cada una).</p></div>
+          </details>
+          <details class="qa" data-reveal>
+            <summary>¿Puedo pedir algo que no veo en el catálogo?</summary>
+            <div class="qa__a"><p>Escríbenos por WhatsApp y pregúntanos: con gusto te decimos si lo tenemos.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="contact" id="contacto" aria-labelledby="contact-titulo">
+      <canvas class="field contact__field" aria-hidden="true"></canvas>
+      <div class="contact__glow" aria-hidden="true"></div>
+      <div class="wrap contact__in">
+        <div class="contact__copy" data-reveal>
+          <p class="eyebrow">Hablemos</p>
+          <h2 id="contact-titulo">¿Listo para tu próxima <span class="grad">maratón?</span></h2>
+          <p class="lead">Cuéntanos qué quieres ver y te respondemos por WhatsApp. Sin compromisos, sin presiones: tú decides.</p>
+
+          <p class="status status--big" data-status><span class="live-dot"></span><span data-status-text>Atendemos todos los días de 7:00 a 22:00</span></p>
+
+          <a class="btn btn--primary btn--xl btn--magnetic" data-wa data-wa-msg="¡Hola Alan Store MX! 👑 Sí, quiero mi maratón. ¿Me ayudan a elegir?" href="#contacto"><span>Sí, quiero mi maratón</span> <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg></a>
+
+          <ul class="contact__info">
+            <li><span>WhatsApp</span><a href="tel:+525649498382">+52 56 4949 8382</a></li>
+            <li><span>Horario</span><b>Lunes a domingo, 7:00 a.m. a 10:00 p.m.</b></li>
+          </ul>
+        </div>
+
+        <form class="form" id="formContacto" novalidate data-reveal>
+          <h3>Cuéntanos qué quieres ver</h3>
+          <label class="field-row"><span>Tu nombre</span>
+            <input type="text" name="nombre" autocomplete="given-name" placeholder="¿Cómo te llamas?" required>
+          </label>
+          <label class="field-row"><span>¿Qué quieres ver?</span>
+            <select name="servicio" required>
+              <option value="">Elige un servicio</option>
+              <optgroup label="Series, películas y anime">
+                <option>Netflix</option><option>Disney+</option><option>Prime Video</option><option>HBO Max</option><option>Paramount+</option><option>Crunchyroll</option><option>ViX</option><option>Fox One</option><option>Viki</option><option>Kocowa</option><option>Apple TV</option><option>Universal+</option>
+              </optgroup>
+              <optgroup label="Música, crear y aprender">
+                <option>Spotify</option><option>Canva</option><option>CapCut</option><option>Duolingo</option>
+              </optgroup>
+              <optgroup label="Más">
+                <option>Libros</option><option>Películas</option><option>Otro (te lo cuento por WhatsApp)</option>
+              </optgroup>
+            </select>
+          </label>
+          <fieldset class="field-row choice">
+            <legend>¿Perfil o cuenta completa?</legend>
+            <label><input type="radio" name="tipo" value="Perfil" checked><span>Perfil</span></label>
+            <label><input type="radio" name="tipo" value="Cuenta completa"><span>Cuenta completa</span></label>
+            <label><input type="radio" name="tipo" value="Aún no sé"><span>Aún no sé</span></label>
+          </fieldset>
+          <label class="field-row"><span>Mensaje (opcional)</span>
+            <textarea name="mensaje" rows="3" placeholder="Cuéntanos cuántos meses, cuántos perfiles o cualquier duda"></textarea>
+          </label>
+          <p class="form__error" role="alert" hidden></p>
+          <button class="btn btn--primary btn--block btn--lg" type="submit" data-submit><span>Enviar mi mensaje por WhatsApp</span> <svg class="ico" aria-hidden="true"><use href="#i-send"/></svg></button>
+          <p class="form__hint">Se abrirá WhatsApp con tu mensaje listo para enviar.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE -->
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <div class="foot__brand">
+        <a class="brand" href="#inicio" aria-label="Alan Store MX, ir al inicio">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__name">Alan <b>Store</b> MX</span>
+        </a>
+        <p>Ventas de streaming en México. Reina tu pantalla con perfiles y cuentas completas, desde $5.</p>
+      </div>
+      <nav class="foot__nav" aria-label="Pie de página">
+        <a href="#universos">Universos</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#compara">Perfil vs. completa</a>
+        <a href="#como-pedir">Cómo pedir</a>
+        <a href="#preguntas">Preguntas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="foot__contact">
+        <p><span>WhatsApp</span> <a href="tel:+525649498382">+52 56 4949 8382</a></p>
+        <p><span>Horario</span> Lunes a domingo, 7:00 a.m. a 10:00 p.m.</p>
+      </div>
+    </div>
+    <div class="wrap foot__legal">
+      <p>Netflix, Disney+, Prime Video, HBO Max, Paramount+, Crunchyroll, ViX, Fox One, Viki, Kocowa, Apple TV, Universal+, Spotify, Duolingo, CapCut y Canva son marcas de sus respectivos propietarios y se mencionan solo para describir los servicios disponibles.</p>
+      <p>© <span id="anio">2026</span> Alan Store MX. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- BANDEJA DE PEDIDO -->
+  <aside class="tray" id="bandeja" aria-label="Mi pedido">
+    <div class="tray__panel" id="bandejaPanel" hidden>
+      <div class="tray__head"><h3>Mi pedido</h3><button class="tray__clear" type="button" data-clear>Vaciar</button></div>
+      <ul class="tray__list" data-lenis-prevent></ul>
+    </div>
+    <div class="tray__bar">
+      <button class="tray__toggle" type="button" aria-expanded="false" aria-controls="bandejaPanel">
+        <span class="tray__badge"><svg class="ico" aria-hidden="true"><use href="#i-bag"/></svg><b data-tray-count>0</b></span>
+        <span class="tray__txt"><small>Mi pedido</small><strong data-tray-total>$0</strong></span>
+      </button>
+      <a class="btn btn--primary btn--sm tray__send" data-wa-order href="#contacto"><span>Enviar mi pedido por WhatsApp</span> <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg></a>
+    </div>
+  </aside>
+
+  <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+  <a class="fab" id="whatsappFlotante" data-wa data-wa-msg="¡Hola Alan Store MX! 👑 Quiero información sobre su streaming." href="#contacto" aria-label="Escríbenos por WhatsApp">
+    <span class="fab__pulse" aria-hidden="true"></span>
+    <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+    <span class="fab__tip" aria-hidden="true">¿Dudas? Escríbenos</span>
+  </a>
+</body>
+</html>
